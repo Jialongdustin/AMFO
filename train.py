@@ -26,7 +26,7 @@ def get_arguments():
     parser.add_argument("--max_epoch", type=int, default='200')
     parser.add_argument("--batch_size", type=int, default='128')  # 一次训练的样本数
     parser.add_argument("--dataset", type=str, default='librispeech')
-    parser.add_argument("--arch", type=str, default='DSN', help='quickcnn, resnet')
+    parser.add_argument("--arch", type=str, default='AMFO', help='quickcnn, resnet')
     parser.add_argument("--lr", type=float, default=0.1)  # 0.1
     parser.add_argument("--r", type=float, default=15)
     parser.add_argument("--gamma", type=float, default=4)
