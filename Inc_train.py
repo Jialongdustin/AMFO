@@ -31,7 +31,7 @@ def get_arguments():
     parser.add_argument("--max_epoch", type=int, default='100')  # 180
     parser.add_argument("--batch_size", type=int, default='128')
     parser.add_argument("--dataset", type=str, default='librispeech')
-    parser.add_argument("--arch", type=str, default='DSN')  #
+    parser.add_argument("--arch", type=str, default='AMFC')  #
     parser.add_argument("--lr", type=float, default=0.1)  # 0.005 0.002
     parser.add_argument("--r", type=float, default=0.1)  # 0.01
     parser.add_argument("--gamma", type=float, default=4)  # 0.2
