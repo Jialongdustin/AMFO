@@ -56,6 +56,6 @@ School of Electronic and Information Engineering, South China University of Tech
 
 Please cite our paper if you find the codes and datasets are useful for your research.
 
-Y. Li, W. Cao, W. Xie, J. Li and E. Benetos, "Few-shot Class-incremental Audio Classification Using Dynamically Expanded Classifier with Self-attention Modified Prototypes," in IEEE Transactions on Multimedia, doi: 10.1109/TMM.2023.3280011. https://ieeexplore.ieee.org/document/10135116.
+Y. Li, J. Li, Y. Si, J. Tan and Q. He, " Few-Shot Class-Incremental Audio Classification with Adaptive Mitigation of Forgetting and Overfitting," 
 
 
