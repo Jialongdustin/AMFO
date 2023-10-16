@@ -12,16 +12,9 @@ ROOT_DIR = osp.abspath(osp.join(osp.dirname(__file__), '..', '..'))  # 获取当
 librispeech_Index_DIR = osp.abspath('./data_list/librispeech/Index_list')
 librispeech_DIR = osp.abspath('./dataset/librispeech_fscil/spk_segments')
 
-nsynth_Index_DIR = osp.abspath('./data_list/nsynth/Index_list')
-nsynth_DIR = './dataset/nsynth/mel_features'
-
-fsc_Index_DIR = osp.abspath('./data_list/fsc_89/Index_list/')
-fsc_DIR = './dataset/fsc_89/mel_features'
 
 # Session Length
 librispeech_SessLen = [60, 5, 5, 5, 5, 5, 5, 5, 5]
-nsynth_SessLen = [55, 5, 5, 5, 5, 5, 5, 5, 5, 5]
-fsc_SessLen = [59, 5, 5, 5, 5, 5, 5]
 
 # mel parameters
 sr = 44100
