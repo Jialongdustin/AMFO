@@ -18,8 +18,8 @@ class OneModel(nn.Module):
         self.node = 512
         if args.dataset == 'librispeech':
             self.session_len = settings.librispeech_SessLen
-            self.m_n = -0.6 # according your data you can change a little
-            self.m_p = 0.01 # 0.01
+            self.m_n = -0.5 # nagative offset--according your data you can change a little
+            self.m_p = 0.1 # positive offset
         self.fc1 = nn.Linear(512, self.node, bias=False)
         self.fc2 = nn.Linear(self.node, self.session_len[0], bias=False)
         self.fc2_n = nn.Linear(self.node, self.session_len[0], bias=False)
