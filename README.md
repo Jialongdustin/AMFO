@@ -29,24 +29,24 @@ LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech
 
 1. you can download [dataset](https://www.openslr.org/resources/12/train-clean-100.tar.gz) and extract the files.
 
-2. Also, we had input the extracted mel-features in the code , you can use it if you are interested in. The data stored in h5py files in the directory--dataset.
+2. Also, after you download the dataset, you can run the `features.py` to extracted mel-features from audio sample and stored in h5py files in the directory--dataset.
 
-- `train1.h5` stores the base session training data
+- `train.h5` stores the base session training data
 
 - `new_train.h5` stores the incremental session training data
 
-- `test1.h5` stores the test data of all sessions
+- `test.h5` stores the test data of all sessions
 
 - `val.h5` stores the validate data of all sessions
    
 
 
 ## Overview
-- `train.py` is the code for base training session
-- `Inc_train.py` is the code for incremental training session
-- `exemplar.py` is the code for reconstrcut the embedding
+- `train.py` is the code for base training session;
+- `Inc_train.py` is the code for incremental training session;
+- `exemplar.py` is the code for reconstrcut the embedding;
+- `features.py` is the code for extracting mel-features;
 - `models/` contains the implementation of the AMFO(`AMFO.py`) and the backbone network;
-- `dataset/` contains the audio dataset;
 - `dataloader/` is the code to load the training and testing data;
 - `data_list/` contains the list of data;
 - `config/` contains the setting file;
