@@ -40,9 +40,11 @@ LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech
 ## 
 
 ## Code
-
+  train.py ----- base training session
+  Inc_train.py ----- incremental training session
+  exemplar ----- reconstrcut the embedding
 ```bash
-bash run_librispeech
+bash run_librispeech.sh
 ```
 
 
@@ -56,6 +58,6 @@ School of Electronic and Information Engineering, South China University of Tech
 
 Please cite our paper if you find the codes and datasets are useful for your research.
 
-Y. Li, J. Li, Y. Si, J. Tan and Q. He, " Few-Shot Class-Incremental Audio Classification with Adaptive Mitigation of Forgetting and Overfitting," 
+Y. Li, J. Li, Y. Si, J. Tan and Q. He, " Few-Shot Class-Incremental Audio Classification with Adaptive Mitigation of Forgetting and Overfitting," IEEE-ACM TASLP, 2023. Submitted.
 
 
