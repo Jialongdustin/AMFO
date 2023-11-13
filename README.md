@@ -31,8 +31,11 @@ LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech
 
 2. Also, we had input the extracted mel-features in the code , you can use it if you are interested in. The data stored in h5py files in the directory--dataset
   train1.h5 ----- base session training data
+
   new_train.h5 ----- incremental session training data
+
   test1.h5 ----- test data of all sessions
+  
   val.h5 ----- validate data of all sessions
    
 
@@ -41,8 +44,11 @@ LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech
 
 ## Code
   train.py ----- base training session
+
   Inc_train.py ----- incremental training session
+
   exemplar ----- reconstrcut the embedding
+
 ```bash
 bash run_librispeech.sh
 ```
