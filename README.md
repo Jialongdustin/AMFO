@@ -46,7 +46,8 @@ LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech
 - `Inc_train.py` is the code for incremental training session
 - `exemplar.py` is the code for reconstrcut the embedding
 - `models/` contains the implementation of the AMFO(`AMFO.py`) and the backbone network;
-- `data/` contains the dataloader and the dataset files;
+- `dataset/` contains the audio dataset;
+- `dataloader/` is the code to load the training and testing data;
 - `data_list/` contains the list of data;
 - `config/` contains the setting file;
 - `utils/` contains the log and restore files;
