@@ -27,7 +27,8 @@ The detailed information of the LS-100 dataset is given below.
 
 LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech, prepared by Vassil Panayotov with the assistance of Daniel Povey. The data is derived from read audiobooks from the LibriVox project, and has been carefully segmented and aligned. We find that the subset ``train-clean-100`` of   Librispeech is enough for our study, so we constructed the LS-100 dataset using partial samples from the Librispeech as the source materials. To be specific, we first concatenate all the speakers' speech clips into a long speech, and then select the 100 speakers with the longest duration to cut their voices into two second speech. You can download the Librispeech from [here](https://www.openslr.org/12/).
 
-1. you can download [dataset](https://www.openslr.org/resources/12/train-clean-100.tar.gz) and extract the files.
+1. you can download three datasets we use and extract the files.
+[LS-100](https://www.modelscope.cn/datasets/pp199124903/LS-100/summary), [FSC-89](https://www.modelscope.cn/datasets/pp199124903/FSC-89/summary) and [NS-100](https://www.modelscope.cn/datasets/pp199124903/NSynth-100/summary)
 
 2. Also, after you download the dataset, you can run the `features.py` to extracted mel-features from audio sample and stored in h5py files in the directory--dataset.
 
@@ -69,6 +70,6 @@ School of Electronic and Information Engineering, South China University of Tech
 
 Please cite our paper if you find the codes and datasets are useful for your research.
 
-Y. Li, J. Li, Y. Si, J. Tan and Q. He, " Few-Shot Class-Incremental Audio Classification with Adaptive Mitigation of Forgetting and Overfitting," IEEE-ACM TASLP, 2023. Submitted.
+[1] Y. Li, J. Li, Y. Si, J. Tan and Q. He, "Few-Shot Class-Incremental Audio Classification With Adaptive Mitigation of Forgetting and Overfitting," in IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 32, pp. 2297-2311, 2024, doi: 10.1109/TASLP.2024.3385287.
 
 
